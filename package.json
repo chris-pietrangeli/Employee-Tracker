@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,10 @@
   },
   "homepage": "https://github.com/chris-pietrangeli/Employee-Tracker#readme",
   "dependencies": {
+    "console.table": "^0.10.0",
+    "dotenv": "^16.0.0",
     "inquirer": "^8.2.2",
-    "mysql": "^2.18.1"
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.15"
   }
 }
